@@ -1,4 +1,4 @@
-my_list = [2, 3]
+my_list = [2, 3, 2, 3, 4, 9]
 
 if my_list:
     my_list.insert(0, my_list[-1])
