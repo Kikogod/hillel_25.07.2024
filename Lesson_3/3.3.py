@@ -1,12 +1,13 @@
-my_list = []
+my_list = [1, 2, 4, 5, 1]
 
-ltr = len(my_list) // 2
+ltr = (len(my_list) + 1) // 2
 
 
 ltr1 = my_list[:ltr]
 ltr2 = my_list[ltr:]
 
-print(ltr1)
-print(ltr2)
+result = [ltr1, ltr2]
+
+print(result)
 
 
